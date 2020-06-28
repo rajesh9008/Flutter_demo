@@ -8,14 +8,16 @@ import '../providers/base_provider.dart';
 class DashBoardRepoProvider extends BaseRepoProvider {
   @override
   Future<List<PodCast>> loadData() async {
-    try {
+    //TODO enable network
+  /*  try {
       await apiClient.getDashBoardData();
 
       /// updating dummy data after success or failure of API
       finishLoading();
     } catch (_) {
       receivedError();
-    }
+    }*/
+    finishLoading();
     return getDummyPodCasts();
   }
 }
