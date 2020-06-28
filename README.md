@@ -1,16 +1,14 @@
 # flutterappdemo
 
-A new Flutter application.
+UI refrence : (https://in.pinterest.com/pin/490681321903227164/?nic_v1=1atZ7O84%2Fk6T98jWoTjWgm%2Fef%2FurKIlpYc8htfumAmBo3gScdQ1Cg5bJ9UtMVViGVD)
+
+
+Used dependency:  
+Observer patter : ChangeNotifier (https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple)  
+Dependency Injectin : Get_It (https://pub.dev/packages/get_it)  
+Http client: flutter Http (https://pub.dev/packages/http)  
+Code analysis : lint (https://dart-lang.github.io/linter/lints/options/options.html)  
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://flutter.dev/
